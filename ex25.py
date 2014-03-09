@@ -1,11 +1,13 @@
+#coding:utf-8
+
 def break_words(stuff):
 	"""This function will break up words for us."""
-	words = stuff.split(' ')
+	words = stuff.split(' ')  #使句子分离为单词
 	return words
 	
 def sort_words(words):
 	"""Sorts the words."""
-	return sorted(words)
+	return sorted(words)  #按分类排序
 	
 def print_first_word(words):
 	"""Prints the first word after popping it off."""
